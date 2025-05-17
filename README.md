@@ -1,5 +1,6 @@
 # MyPacman
-Folder Explanation
+**Folder Explanation**
+<hr>
 The files you find directly in the main folder of the repository contain the last working version of the project, it is made of:</br>
 * pacman.cpp
 * textures.hpp
