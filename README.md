@@ -1,18 +1,23 @@
 # MyPacman
 **Folder Explanation**
-<hr>
+
 The files you find directly in the main folder of the repository contain the last working version of the project, it is made of:</br>
-* pacman.cpp
-* textures.hpp
-* functions.hpp
-* gameStructrues_fwd.cpp
-* gameStructrues.hpp
-* functions.cpp
-* handlers.cpp
-* RisorseProgetto (folder containing the resources necessary to run the project)
+<ul>
+  <li>pacman.cpp</li>
+  <li>textures.hpp</li>
+  <li>functions.hpp</li>
+  <li>gameStructrues_fwd.cpp</li>
+  <li>gameStructrues.hpp</li>
+  <li>functions.cpp</li>
+  <li>handlers.cpp</li>
+  <li>RisorseProgetto (folder containing the resources necessary to run the project)</li>
+</ul>
+
+In the PDF file you can find some documentation for the project, but most of it is actually **the story of the devolpment** </br> 
+<hr>
 
 Inside of the "VersioniIntermedie" folder you can find snapshots of the previous versions, 
-which are cited in the documentation (which will be soon commited as a PDF in the main folder).</br>
+which are cited in the documentation.</br>
 Again, inside of that folder you can find "LePrimeFasi" which instead of containing a whole snaphsot,
 it contains the four stand-alone .cpp files containing the backups of the very first phases of development.</br>
 </br>
