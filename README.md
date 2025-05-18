@@ -13,7 +13,7 @@ The files you find directly in the main folder of the repository contain the las
   <li>RisorseProgetto (folder containing the resources necessary to run the project)</li>
 </ul>
 
-In the PDF file you can find some documentation for the project, but most of it is actually **the story of the devolpment** </br> 
+In the PDF file you can find some documentation for the project in italian language, but most of it is actually **the story of the devolpment** </br> 
 <hr>
 
 Inside of the "VersioniIntermedie" folder you can find snapshots of the previous versions, 
