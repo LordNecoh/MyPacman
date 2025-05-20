@@ -128,7 +128,7 @@ struct State {
     sf::Clock superClock;
     std::vector<Pellet> dots;
     GameState gameState = GameState::MAIN_MENU;
-    const sf::Font font{"src/progetto/RisorseProgetto/Emulogic.ttf"}; 
+    const sf::Font font{"progetto/RisorseProgetto/Emulogic.ttf"}; 
     sf::Texture mainTexture; 
     bool isPacmanSuper = false; //True if pacman has eaten a super dot
     std::vector<sf::Vector2i> pacmanTextureVector = PACMAN_TEXTURE_DOWN; 

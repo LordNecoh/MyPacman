@@ -41,7 +41,7 @@ int main() {
     sf::RenderWindow window(sf::VideoMode({WINDOW_WIDTH, WINDOW_HEIGHT}), "Pacman Game");
 
     sf::Texture mainTexture;
-    if (!mainTexture.loadFromFile("src/progetto/RisorseProgetto/pacmanSprites.png"))  return -1;
+    if (!mainTexture.loadFromFile("progetto/RisorseProgetto/pacmanSprites.png"))  return -1;
 
     window.setFramerateLimit(60);
 

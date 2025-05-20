@@ -89,7 +89,7 @@ struct State {
     sf::Clock clock;
     std::vector<Pellet> dots;
     GameState gameState = GameState::MAIN_MENU;
-    const sf::Font font{"src/progetto/RisorseProgetto/Emulogic.ttf"}; 
+    const sf::Font font{"progetto/RisorseProgetto/Emulogic.ttf"}; 
     sf::Texture mainTexture; 
 
     State(const sf::Sprite& pacmanSprite, const sf::Sprite& redSprite, const sf::Sprite& pinkSprite, const sf::Sprite& greenSprite, const sf::Sprite& orangeSprite) 

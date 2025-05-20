@@ -52,14 +52,14 @@ const sf::Vector2f RESTART_POSITION(TITLE_POSITION.x , TITLE_POSITION.y + 100);
 const sf::Vector2f SCORE_POSITION(10, WINDOW_HEIGHT - SCOREBOARD_HEIGHT + 15);
 
 //  ---    SOUNDS   ---    //
-const std::string MAIN_THEME = "src/progetto/RisorseProgetto/pacmanTheme.ogg";
-const std::string MENU_THEME = "src/progetto/RisorseProgetto/menuMusic.mp3"; //Menu Music by SergeQuadrado -- https://freesound.org/s/786273/ -- License: Attribution NonCommercial 4.0
-const std::string CHASE_THEME = "src/progetto/RisorseProgetto/chase.wav"; //Chase 8-Bit.wav by Volvion -- https://freesound.org/s/315717/ -- License: Creative Commons 0
+const std::string MAIN_THEME = "progetto/RisorseProgetto/pacmanTheme.ogg";
+const std::string MENU_THEME = "progetto/RisorseProgetto/menuMusic.mp3"; //Menu Music by SergeQuadrado -- https://freesound.org/s/786273/ -- License: Attribution NonCommercial 4.0
+const std::string CHASE_THEME = "progetto/RisorseProgetto/chase.wav"; //Chase 8-Bit.wav by Volvion -- https://freesound.org/s/315717/ -- License: Creative Commons 0
 
-const std::string EATING_SOUND = "src/progetto/RisorseProgetto/blop.flac"; //water_flicks_splash_057.flac by Department64 -- https://freesound.org/s/607803/ -- License: Attribution 4.0
-const std::string SUPERDOT_SOUND = "src/progetto/RisorseProgetto/blipBlip.wav"; //BLIP BLIP.wav by Hacrown87 -- https://freesound.org/s/488257/ -- License: Creative Commons 0
-const std::string WOOSH_SOUND = "src/progetto/RisorseProgetto/woosh.wav"; //electric woosh by HadaHector -- https://freesound.org/s/446383/ -- License: Attribution 4.0
-const std::string DEATH_SOUND = "src/progetto/RisorseProgetto/death.wav"; //8 bit Death sound by MentosLat -- https://freesound.org/s/417486/ -- License: Creative Commons 0
+const std::string EATING_SOUND = "progetto/RisorseProgetto/blop.flac"; //water_flicks_splash_057.flac by Department64 -- https://freesound.org/s/607803/ -- License: Attribution 4.0
+const std::string SUPERDOT_SOUND = "progetto/RisorseProgetto/blipBlip.wav"; //BLIP BLIP.wav by Hacrown87 -- https://freesound.org/s/488257/ -- License: Creative Commons 0
+const std::string WOOSH_SOUND = "progetto/RisorseProgetto/woosh.wav"; //electric woosh by HadaHector -- https://freesound.org/s/446383/ -- License: Attribution 4.0
+const std::string DEATH_SOUND = "progetto/RisorseProgetto/death.wav"; //8 bit Death sound by MentosLat -- https://freesound.org/s/417486/ -- License: Creative Commons 0
 
 
 #include "textures.hpp"
