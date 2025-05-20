@@ -17,6 +17,7 @@ FetchContent_MakeAvailable(SFML)
 add_executable(main progetto/pacman.cpp) #Edit her to add your source files
 
 #Older versions, remove if not interested !
+add_executable(01 progetto/VersioniIntermedie/postRiordine_01/progetto/pacman.cpp)
 add_executable(02 progetto/VersioniIntermedie/disegnoFantasmi_02/pacman.cpp)
 add_executable(03 progetto/VersioniIntermedie/movimentoPrimoFantasma_03/pacman.cpp)
 add_executable(04 progetto/VersioniIntermedie/movimentoRedSbagliato_04/pacman.cpp)
@@ -38,6 +39,7 @@ add_executable(19 progetto/VersioniIntermedie/diversaFrutta_19/pacman.cpp)
 
 target_compile_features(main PRIVATE cxx_std_17)
 target_link_libraries(main PRIVATE SFML::Graphics SFML::Audio)
+target_link_libraries(01 PRIVATE SFML::Graphics SFML::Audio)
 target_link_libraries(02 PRIVATE SFML::Graphics SFML::Audio)
 target_link_libraries(03 PRIVATE SFML::Graphics SFML::Audio)
 target_link_libraries(04 PRIVATE SFML::Graphics SFML::Audio)
@@ -56,4 +58,3 @@ target_link_libraries(16 PRIVATE SFML::Graphics SFML::Audio)
 target_link_libraries(17 PRIVATE SFML::Graphics SFML::Audio)
 target_link_libraries(18 PRIVATE SFML::Graphics SFML::Audio)
 target_link_libraries(19 PRIVATE SFML::Graphics SFML::Audio)
-
