@@ -94,14 +94,14 @@ struct Ghost : public Character {
         sprite.setPosition(initializeGhostSpawn(type));
     }
 
-    setFrightened() {
+    int setFrightened() {
         if(mood != GhostMood::CHASE) return 1;
         mood = GhostMood::FRIGHTENED;
         sprite.setTextureRect(sf::IntRect(FRIGHTENED_TEXTURE, sf::Vector2i(CHARACTER_SIZE, CHARACTER_SIZE)));
         return 0;
     }
 
-    setChase() {
+    int setChase() {
         if(mood != GhostMood::FRIGHTENED) return 1;
         mood = GhostMood::CHASE;
         sprite.setTextureRect(initializeGhostRect(type));

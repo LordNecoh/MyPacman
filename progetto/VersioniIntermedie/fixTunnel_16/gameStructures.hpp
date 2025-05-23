@@ -101,13 +101,13 @@ struct Ghost : public Character {
         sprite.setPosition(initializeGhostSpawn(type));
     }
 
-    setFrightened() {
+    int setFrightened() {
         if(mood != GhostMood::CHASE) return 1;
         mood = GhostMood::FRIGHTENED;
         return 0;
     }
 
-    setChase() {
+    int setChase() {
         if(mood != GhostMood::FRIGHTENED) return 1;
         mood = GhostMood::CHASE;
         return 0;
